@@ -12,7 +12,9 @@ See [Prerequisites](../README.md#Prerequisites).
 ```bash
  mvn clean package appengine:deploy -Dapp.deploy.projectId=<your-project-id>
 ```
-
+```
+ mvn clean package appengine:deploy -Dapp.deploy.projectId=lingbook-x1
+```
 To view your app, use command:
 ```
 gcloud app browse
